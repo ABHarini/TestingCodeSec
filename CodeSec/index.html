@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <script src="index.js" defer></script>
+    <title>Frontend Mentor | Interactive rating component</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Rating state start -->
+
+    <!-- How did we do? Please let us know how we did with your support request. All
+    feedback is appreciated to help us improve our offering! 1 2 3 4 5 Submit -->
+
+    <!-- Rating state end -->
+
+    <!-- Thank you state start -->
+
+    <!-- You selected -->
+    <!-- Add rating here -->
+    <!-- out of 5 Thank you! We appreciate you taking the time to give a rating. If
+    you ever need more support, don’t hesitate to get in touch! -->
+
+    <!-- Thank you state end -->
+
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Tushar Bachchan</a>.
+    </div> -->
+    <div class="container">
+      <div class="initial-card">
+        <div class="star-icon">
+          
+        </div>
+        <div class="rating-text">
+          <h2 class="heading">How did we do?</h2>
+          <p>
+            Please let us know how we did with your support request. All
+            feedback is appreciated to help us improve our offering!
+          </p>
+        </div>
+        <div class="rating-container">
+          <div class="rating" id="btn1" valueEL=1>1</div>
+          <div class="rating" id="btn2" valueEL=2>2</div>
+          <div class="rating" id="btn3" valueEL=3>3</div>
+          <div class="rating" id="btn4" valueEL=4>4</div>
+          <div class="rating" id="btn5" valueEL=5>5</div>
+        </div>
+        <button class="submit" type="submit">Submit</button>
+      </div>
+      <div class="thank-card not-visible">
+        <div class="thank-img"></div>
+        <span class="selected-rating-text">You selected <span class="selected-rating">4</span> out of 5</span>
+        <div class="rating-text">
+          <h2 class="heading thank-heading">Thank you!</h2>
+          <p class="thank-p">
+            We appreciate you taking the time to give a rating. If
+    you ever need more support, don’t hesitate to get in touch!
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
